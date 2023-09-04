@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project - Educational Website</title>
+
+    <!--==================FONT AWESOME CDN  FOR ICONS =================-->
+    <script
+      src="https://kit.fontawesome.com/a5e6048e8c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--===============GOOGLE FONTS (CORMORANT GARAMOND)=============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--============================ Swiper js CDN==========================-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!--===============LINKING HTML TO CSS===================-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"><h3>TUTORup</h3></a>
+        <ul class="nav__menu">
+          <li><a href=" index.html">Home</a></li>
+          <li><a href=" about.html">About</a></li>
+          <li><a href=" courses.html">Courses</a></li>
+          <li><a href=" contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-button"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-button">
+          <i class="fa-solid fa-rectangle-xmark"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ======END OF NAVBAR=======-->
+
+    <!-- =======BEGINNING OF HEADER=======-->
+
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h2>
+            Connect, Learn, Thrive! Together We Excel!<br />
+            No Room For Trails!
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            corporis doloribus nam praesentium neque adipisci excepturi soluta.
+          </p>
+          <a href="courses.html" class="btn btn-primary"> Get Started </a>
+        </div>
+
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="./images/worktime.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =======END OF HEADER=======-->
+
+    <!-- =======BEGINING OF CATEGORIES=======-->
+
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Categories</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            voluptatem, expedita vitae quidem ipsam mollitia quod dolor nemo
+            deleniti tenetur. Aspernatur, ducimus sed officia maiores animi
+            corrupti minus accusamus nulla.
+          </p>
+          <a href="#" class="btn"> Learn More</a>
+        </div>
+
+        <!-- COMPUTER SCIENCE-->
+        <div class="categories__right">
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-robot"></i
+            ></span>
+            <h5>Computer Science</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </article>
+
+          <!-- FOOD SCIENCE AND TECHNOLOGY-->
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-flask"></i
+            ></span>
+            <h5>Food Science And Technology</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </article>
+
+          <!--  BIOCHEMISTRY -->
+          <article class="category">
+            <span class="category__icon"><i class="fa-solid fa-dna"></i></span>
+            <h5>Biochemistry</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </article>
+
+          <!-- OPTOMETRY-->
+          <article class="category">
+            <span class="category__icon"><i class="fa-solid fa-eye"></i></span>
+            <h5>Optometry</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </article>
+
+          <!-- ENVIRONMENTAL SCIENCE-->
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-seedling"></i
+            ></span>
+            <h5>Environmental science</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </article>
+
+          <!-- BIOLOGICAL SCIENCE-->
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-microscope"></i
+            ></span>
+            <h5>Biological Science</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======END OF CATEGORIES=======-->
+
+    <!-- =================BEGINNING OF PORPULAR  COURSES=============-->
+    <section class="courses">
+      <h2 class="popular">Our Porpular Courses</h2>
+      <div class="container courses__container">
+        <article class="course">
+          <div class="course__image">
+            <img src="images/pinterest.2.jpg" alt="course materials" />
+          </div>
+          <div class="cours__info">
+            <h4>
+              Discrete Mathematics <br />
+              (MATHS 174 & CSM 164)
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Totam
+              voluptatum similique laudantium dolor, impedit consequatur nihil.
+            </p>
+            <a href="courses.html" class="btn btn-primary"> Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="images/Com Skills.jpg" alt="course materials" />
+          </div>
+          <div class="course__info">
+            <h4>Communication Skills (ENG 157)</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Totam
+              voluptatum similique laudantium dolor, impedit consequatur nihil.
+            </p>
+            <a href="courses.html" class="btn btn-primary"> Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="images/metabolism.jpg" alt="course materials" />
+          </div>
+          <div class="course__info">
+            <h4>Metabolism (BCHEM 254)</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Totam
+              voluptatum similique laudantium dolor, impedit consequatur nihil.
+            </p>
+            <a href="courses.html" class="btn btn-primary"> Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =================END OF COURSES=============-->
+
+    <!-- =================FREQUENTLY ASKED QUESTIONS=============-->
+
+    <section class="faqs">
+      <h2 class="fak">Frequently Asked Questions</h2>
+      <div class="container faqs__container">
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right Tutors for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How quickly can I find a tutor?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Will you asist me to get my first Tutor?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>What are the requiremnts to start?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Can I become a tutor on the app?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How are tutoring sessions conducted?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>
+              Do you offer group tutoring sessions for a more interactive
+              learning experience?
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>
+              Is there a feature to track my progress or learning goals within
+              the app?
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>What happens if i need to reschedule a meeting?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Can I schedule a tutoring session at my convenience?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              numquam repudiandae dolorem consequatur asperiores, maxime autem
+              dolore totam et mollitia quam iste temporibus corrupti libero
+              minima dolor in aut accusamus.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--=============End of faqs==========-->
+
+    <!--=============STUDENTS TESTIMONIALS==========-->
+    <section class="container testimonials __container mySwiper">
+      <h2 class="student__testimonial">Student's Testimonial</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/Nana Akuarh.jpg" alt="picture of student" />
+          </div>
+
+          <div class="testimonial__info">
+            <h5>Nana Akuarh</h5>
+            <small> Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              excepturi, quod pariatur, est voluptatibus labore minima
+              consequatur delectus corporis sit fugit nemo ex voluptas corrupti
+              beatae dignissimos inventore totam vitae?.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/Ken.jpg" alt="picture of student" />
+          </div>
+
+          <div class="testimonial__info">
+            <h5>Keneth Nartey</h5>
+            <small> Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              quasi blanditiis tenetur modi, repudiandae veritatis dolor animi
+              doloribus quas id ullam exercitationem! Numquam ipsam soluta
+              similique, necessitatibus iste sed hic?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/Hammida.jpg" alt="picture of student" />
+          </div>
+
+          <div class="testimonial__info">
+            <h5>Hammida Inusa</h5>
+            <small> Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              voluptatem adipisci veniam perspiciatis natus, at debitis
+              voluptatibus vero excepturi nulla odit molestias accusantium ipsa
+              ut voluptate culpa, inventore sunt ducimus?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/fofana.jpg" alt="picture of student" />
+          </div>
+
+          <div class="testimonial__info">
+            <h5>Wesley Fofana</h5>
+            <small> Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+              neque maxime consectetur sint autem magni. Architecto ullam
+              doloribus nam perferendis, rem voluptatem? Alias voluptatum
+              aliquam odio quo? Eligendi, corrupti facere!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/Giannis.jpg" alt="picture of student" />
+          </div>
+
+          <div class="testimonial__info">
+            <h5>Giannis Antentekounpo</h5>
+            <small> Student Tutor</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
+              eveniet exercitationem pariatur voluptate aperiam, asperiores
+              atque deserunt a quia cum similique sint aliquam ea nostrum
+              delectus accusamus repudiandae! Illo, dolores!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/Keziah.jpg" alt="picture of student" />
+          </div>
+
+          <div class="testimonial__info">
+            <h5>Kezia Dovi Kumodzi</h5>
+            <small> Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+              ratione numquam assumenda culpa aut, cum dolor doloremque,
+              deserunt incidunt nesciunt sed repudiandae dolorum suscipit
+              voluptates, corporis quasi nostrum? Vitae, distinctio!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/Ella.jpg" alt="picture of student" />
+          </div>
+
+          <div class="testimonial__info">
+            <h5>Ella Bessa Simons</h5>
+            <small> Student Tutor</small>
+          </div>
+          <div div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
+              doloribus enim a praesentium magni aspernatur beatae dicta tenetur
+              perferendis ipsum inventore repellat eaque sapiente nobis est
+              eligendi! Quasi, ut molestiae.
+            </p>
+          </div>
+        </article>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--==============FOOTER==================-->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"> <h4>TUTORup</h4></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            voluptate. Quibusdam, quisquam numquam! Neque, dolorem?
+          </p>
+        </div>
+
+        <div class="footer__2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="courses.html"> Courses</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__3">
+          <h4>Primacy</h4>
+          <ul class="privacy">
+            <li><a href="#"> Privacy Policy</a></li>
+            <li><a href="#"> Terms and Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+233 200 550 450</p>
+            <p>+233 208 853 815</p>
+            <p>jlawerter@gmail.com</p>
+          </div>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; TUTORup</small>
+      </div>
+    </footer>
+
+    <!--=============LINK JAVASCRIPT==========-->
+
+    <script src="main.js"></script>
+
+    <!--=====================SWIPERJS LINK TO JS================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // When window width is=> 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
